@@ -6,7 +6,9 @@ on:
     types:
       - completed
 
-jobs: 
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
